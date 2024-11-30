@@ -11,7 +11,6 @@ class Food(Turtle):
         self.speed("fastest")
         self.random_food()
 
-
     def random_food(self):
         random_x = random.randint(-280, 280)
         random_y = random.randint(-280, 280)
